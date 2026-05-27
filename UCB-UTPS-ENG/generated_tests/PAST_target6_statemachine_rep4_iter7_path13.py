@@ -1,0 +1,28 @@
+# 方法: PAST
+# 目标文件: target6_statemachine.py
+# 条件路径: state == 'STOPPED'
+# 重复次数: 4, 迭代: 7
+# 生成时间: 2026-04-18 16:58:34
+
+import pytest
+from target6_statemachine import transition
+
+@pytest.mark.parametrize("state, counter, action, expected_state, expected_counter, expected_result", [
+    # 测试 state == "STOPPED" 的情况
+    ("STOPPED", 5, "RESUME", "RUNNING", 5, "RESUMED"),
+    ("STOPPED", 5, "RESET", "IDLE", 0, "RESET"),
+    ("STOPPED", 5, "START", "STOPPED", 5, "NO_CHANGE"),
+    ("STOPPED", 5, "INCREMENT", "STOPPED", 5, "NO_CHANGE"),
+    ("STOPPED", 5, "STOP", "STOPPED", 5, "NO_CHANGE"),
+    # 边界情况：counter 为 10
+    ("STOPPED", 10, "RESET", "IDLE", 0, "RESET"),
+    # 非法输入
+    (123, 5, "RESET", 123, 5, "NO_CHANGE"),
+    ("STOPPED", "invalid", "RESET", "STOPPED", "invalid", "NO_CHANGE"),
+    ("STOPPED", 5, 123, "STOPPED", 5, "NO_CHANGE"),
+])
+def test_transition_state_STOPPED(state, counter, action, expected_state, expected_counter, expected_result):
+    result_state, result_counter, result_msg = transition(state, counter, action)
+    assert result_state == expected_state
+    assert result_counter == expected_counter
+    assert result_msg == expected_result

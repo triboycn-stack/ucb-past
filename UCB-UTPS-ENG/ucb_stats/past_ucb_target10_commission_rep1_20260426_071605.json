@@ -1,0 +1,65 @@
+{
+  "total_count": 11,
+  "path_stats": {
+    "0": {
+      "success": 1,
+      "fail": 0,
+      "reward": 94.11764705882352,
+      "total_tries": 1
+    },
+    "1": {
+      "success": 1,
+      "fail": 0,
+      "reward": 0,
+      "total_tries": 1
+    },
+    "2": {
+      "success": 1,
+      "fail": 0,
+      "reward": 82.3529411764706,
+      "total_tries": 1
+    },
+    "3": {
+      "success": 1,
+      "fail": 1,
+      "reward": 44.11764705882353,
+      "total_tries": 2
+    },
+    "4": {
+      "success": 1,
+      "fail": 0,
+      "reward": 94.11764705882352,
+      "total_tries": 1
+    },
+    "5": {
+      "success": 1,
+      "fail": 0,
+      "reward": 0,
+      "total_tries": 1
+    },
+    "6": {
+      "success": 1,
+      "fail": 0,
+      "reward": 0,
+      "total_tries": 1
+    },
+    "7": {
+      "success": 1,
+      "fail": 0,
+      "reward": 5.882352941176464,
+      "total_tries": 1
+    },
+    "8": {
+      "success": 1,
+      "fail": 0,
+      "reward": 0,
+      "total_tries": 1
+    },
+    "9": {
+      "success": 1,
+      "fail": 0,
+      "reward": 0,
+      "total_tries": 1
+    }
+  }
+}
