@@ -153,4 +153,16 @@ python results/analyze_results.py
 - Generated test cases are saved to `generated_tests/` directory
 - All result JSON files are saved to `results/` directory
 
+## Citation
+If you use this code in your research, please cite:
 
+bibtex
+@article{ucb-past-2026,
+  title={UCB-based Path Selection for LLM Unit Test Generation: Balancing Exploration and Exploitation},
+  author={Yang, Xun},
+  journal={Journal of Software: Evolution and Process},
+  year={2026}
+}
+
+## License
+MIT License
