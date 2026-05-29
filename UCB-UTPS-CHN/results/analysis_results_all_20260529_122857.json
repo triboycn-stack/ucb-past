@@ -1,0 +1,813 @@
+{
+  "timestamp": "20260529_122857",
+  "target_method": "PAST-UCB",
+  "summary": {
+    "target4_dedent": {
+      "past": {
+        "mean": 100.0,
+        "std": 0.0,
+        "values": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "past_ucb": {
+        "mean": 98.88888888888889,
+        "std": 2.2222222222222228,
+        "values": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          94.44444444444444
+        ]
+      },
+      "no_healing": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "hypothesis": {
+        "mean": 72.0,
+        "std": 0.0,
+        "values": [
+          72.0,
+          72.0,
+          72.0,
+          72.0,
+          72.0
+        ]
+      },
+      "smartrandom": {
+        "mean": 64.0,
+        "std": 0.0,
+        "values": [
+          64.0,
+          64.0,
+          64.0,
+          64.0,
+          64.0
+        ]
+      },
+      "purellm": {
+        "mean": 70.4,
+        "std": 1.9595917942265424,
+        "values": [
+          68.0,
+          72.0,
+          68.0,
+          72.0,
+          72.0
+        ]
+      }
+    },
+    "target5_scanstring": {
+      "past": {
+        "mean": 41.48148148148148,
+        "std": 28.63133050383361,
+        "values": [
+          37.03703703703704,
+          92.5925925925926,
+          3.7037037037037033,
+          37.03703703703704,
+          37.03703703703704
+        ]
+      },
+      "past_ucb": {
+        "mean": 97.03703703703704,
+        "std": 3.6288736930121144,
+        "values": [
+          100.0,
+          92.5925925925926,
+          100.0,
+          100.0,
+          92.5925925925926
+        ]
+      },
+      "no_healing": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "hypothesis": {
+        "mean": 66.66666666666666,
+        "std": 6.060606060606064,
+        "values": [
+          69.6969696969697,
+          54.54545454545454,
+          69.6969696969697,
+          69.6969696969697,
+          69.6969696969697
+        ]
+      },
+      "smartrandom": {
+        "mean": 21.21212121212121,
+        "std": 0.0,
+        "values": [
+          21.21212121212121,
+          21.21212121212121,
+          21.21212121212121,
+          21.21212121212121,
+          21.21212121212121
+        ]
+      },
+      "purellm": {
+        "mean": 3.0303030303030303,
+        "std": 0.0,
+        "values": [
+          3.0303030303030303,
+          3.0303030303030303,
+          3.0303030303030303,
+          3.0303030303030303,
+          3.0303030303030303
+        ]
+      }
+    },
+    "target6_statemachine": {
+      "past": {
+        "mean": 23.076923076923077,
+        "std": 0.0,
+        "values": [
+          23.076923076923077,
+          23.076923076923077,
+          23.076923076923077,
+          23.076923076923077,
+          23.076923076923077
+        ]
+      },
+      "past_ucb": {
+        "mean": 38.96551724137932,
+        "std": 3.006137202441846,
+        "values": [
+          37.93103448275862,
+          37.93103448275862,
+          44.827586206896555,
+          36.206896551724135,
+          37.93103448275862
+        ]
+      },
+      "no_healing": {
+        "mean": 43.44827586206897,
+        "std": 21.87414003745339,
+        "values": [
+          50.0,
+          56.896551724137936,
+          53.44827586206896,
+          56.896551724137936,
+          0
+        ]
+      },
+      "hypothesis": {
+        "mean": 12.820512820512821,
+        "std": 1.7763568394002505e-15,
+        "values": [
+          12.82051282051282,
+          12.82051282051282,
+          12.82051282051282,
+          12.82051282051282,
+          12.82051282051282
+        ]
+      },
+      "smartrandom": {
+        "mean": 5.932203389830509,
+        "std": 0.0,
+        "values": [
+          5.932203389830509,
+          5.932203389830509,
+          5.932203389830509,
+          5.932203389830509,
+          5.932203389830509
+        ]
+      },
+      "purellm": {
+        "mean": 23.220338983050844,
+        "std": 9.491525423728813,
+        "values": [
+          27.966101694915253,
+          27.966101694915253,
+          27.966101694915253,
+          4.23728813559322,
+          27.966101694915253
+        ]
+      }
+    },
+    "target7_closure": {
+      "past": {
+        "mean": 16.216216216216218,
+        "std": 0.0,
+        "values": [
+          16.216216216216218,
+          16.216216216216218,
+          16.216216216216218,
+          16.216216216216218,
+          16.216216216216218
+        ]
+      },
+      "past_ucb": {
+        "mean": 100.0,
+        "std": 0.0,
+        "values": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "no_healing": {
+        "mean": 80.0,
+        "std": 40.0,
+        "values": [
+          100.0,
+          100.0,
+          100.0,
+          0,
+          100.0
+        ]
+      },
+      "hypothesis": {
+        "mean": 11.76470588235294,
+        "std": 0.0,
+        "values": [
+          11.76470588235294,
+          11.76470588235294,
+          11.76470588235294,
+          11.76470588235294,
+          11.76470588235294
+        ]
+      },
+      "smartrandom": {
+        "mean": 29.411764705882355,
+        "std": 0.0,
+        "values": [
+          29.411764705882355,
+          29.411764705882355,
+          29.411764705882355,
+          29.411764705882355,
+          29.411764705882355
+        ]
+      },
+      "purellm": {
+        "mean": 37.647058823529406,
+        "std": 18.823529411764703,
+        "values": [
+          47.05882352941176,
+          0.0,
+          47.05882352941176,
+          47.05882352941176,
+          47.05882352941176
+        ]
+      }
+    },
+    "target8_triangle": {
+      "past": {
+        "mean": 100.0,
+        "std": 0.0,
+        "values": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "past_ucb": {
+        "mean": 100.0,
+        "std": 0.0,
+        "values": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "no_healing": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "hypothesis": {
+        "mean": 3.125,
+        "std": 0.0,
+        "values": [
+          3.125,
+          3.125,
+          3.125,
+          3.125,
+          3.125
+        ]
+      },
+      "smartrandom": {
+        "mean": 9.375,
+        "std": 0.0,
+        "values": [
+          9.375,
+          9.375,
+          9.375,
+          9.375,
+          9.375
+        ]
+      },
+      "purellm": {
+        "mean": 37.5,
+        "std": 0.0,
+        "values": [
+          37.5,
+          37.5,
+          37.5,
+          37.5,
+          37.5
+        ]
+      }
+    },
+    "target9_nextdate": {
+      "past": {
+        "mean": 100.0,
+        "std": 0.0,
+        "values": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "past_ucb": {
+        "mean": 100.0,
+        "std": 0.0,
+        "values": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "no_healing": {
+        "mean": 40.0,
+        "std": 48.98979485566356,
+        "values": [
+          0,
+          100.0,
+          0,
+          100.0,
+          0
+        ]
+      },
+      "hypothesis": {
+        "mean": 1.6393442622950822,
+        "std": 2.220446049250313e-16,
+        "values": [
+          1.639344262295082,
+          1.639344262295082,
+          1.639344262295082,
+          1.639344262295082,
+          1.639344262295082
+        ]
+      },
+      "smartrandom": {
+        "mean": 4.918032786885246,
+        "std": 0.0,
+        "values": [
+          4.918032786885246,
+          4.918032786885246,
+          4.918032786885246,
+          4.918032786885246,
+          4.918032786885246
+        ]
+      },
+      "purellm": {
+        "mean": 1.6393442622950822,
+        "std": 2.220446049250313e-16,
+        "values": [
+          1.639344262295082,
+          1.639344262295082,
+          1.639344262295082,
+          1.639344262295082,
+          1.639344262295082
+        ]
+      }
+    },
+    "target10_commission": {
+      "past": {
+        "mean": 94.11764705882352,
+        "std": 0.0,
+        "values": [
+          94.11764705882352,
+          94.11764705882352,
+          94.11764705882352,
+          94.11764705882352,
+          94.11764705882352
+        ]
+      },
+      "past_ucb": {
+        "mean": 94.11764705882352,
+        "std": 0.0,
+        "values": [
+          94.11764705882352,
+          94.11764705882352,
+          94.11764705882352,
+          94.11764705882352,
+          94.11764705882352
+        ]
+      },
+      "no_healing": {
+        "mean": 0.0,
+        "std": 0.0,
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "hypothesis": {
+        "mean": 1.96078431372549,
+        "std": 2.220446049250313e-16,
+        "values": [
+          1.9607843137254901,
+          1.9607843137254901,
+          1.9607843137254901,
+          1.9607843137254901,
+          1.9607843137254901
+        ]
+      },
+      "smartrandom": {
+        "mean": 5.88235294117647,
+        "std": 0.0,
+        "values": [
+          5.88235294117647,
+          5.88235294117647,
+          5.88235294117647,
+          5.88235294117647,
+          5.88235294117647
+        ]
+      },
+      "purellm": {
+        "mean": 19.2156862745098,
+        "std": 14.106749606748979,
+        "values": [
+          1.9607843137254901,
+          31.372549019607842,
+          29.411764705882355,
+          31.372549019607842,
+          1.9607843137254901
+        ]
+      }
+    }
+  },
+  "wilcoxon_tests": {
+    "target4_dedent": {
+      "past": {
+        "p_value": 1.0,
+        "significant": "False",
+        "effect_size": -0.2,
+        "effect_interpretation": "small",
+        "mean_target": 98.88888888888889,
+        "mean_baseline": 100.0,
+        "improvement": -1.1111111111111143
+      },
+      "no_healing": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 98.88888888888889,
+        "mean_baseline": 0.0,
+        "improvement": 98.88888888888889
+      },
+      "hypothesis": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 98.88888888888889,
+        "mean_baseline": 72.0,
+        "improvement": 26.888888888888886
+      },
+      "smartrandom": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 98.88888888888889,
+        "mean_baseline": 64.0,
+        "improvement": 34.888888888888886
+      },
+      "purellm": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 98.88888888888889,
+        "mean_baseline": 70.4,
+        "improvement": 28.48888888888888
+      }
+    },
+    "target5_scanstring": {
+      "past": {
+        "p_value": 0.125,
+        "significant": "False",
+        "effect_size": 0.92,
+        "effect_interpretation": "large",
+        "mean_target": 97.03703703703704,
+        "mean_baseline": 41.48148148148148,
+        "improvement": 55.55555555555556
+      },
+      "no_healing": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 97.03703703703704,
+        "mean_baseline": 0.0,
+        "improvement": 97.03703703703704
+      },
+      "hypothesis": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 97.03703703703704,
+        "mean_baseline": 66.66666666666666,
+        "improvement": 30.37037037037038
+      },
+      "smartrandom": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 97.03703703703704,
+        "mean_baseline": 21.21212121212121,
+        "improvement": 75.82491582491582
+      },
+      "purellm": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 97.03703703703704,
+        "mean_baseline": 3.0303030303030303,
+        "improvement": 94.006734006734
+      }
+    },
+    "target6_statemachine": {
+      "past": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 38.96551724137932,
+        "mean_baseline": 23.076923076923077,
+        "improvement": 15.88859416445624
+      },
+      "no_healing": {
+        "p_value": 0.625,
+        "significant": "False",
+        "effect_size": -0.6,
+        "effect_interpretation": "large",
+        "mean_target": 38.96551724137932,
+        "mean_baseline": 43.44827586206897,
+        "improvement": -4.482758620689651
+      },
+      "hypothesis": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 38.96551724137932,
+        "mean_baseline": 12.820512820512821,
+        "improvement": 26.145004420866496
+      },
+      "smartrandom": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 38.96551724137932,
+        "mean_baseline": 5.932203389830509,
+        "improvement": 33.03331385154881
+      },
+      "purellm": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 38.96551724137932,
+        "mean_baseline": 23.220338983050844,
+        "improvement": 15.745178258328473
+      }
+    },
+    "target7_closure": {
+      "past": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 100.0,
+        "mean_baseline": 16.216216216216218,
+        "improvement": 83.78378378378378
+      },
+      "no_healing": {
+        "p_value": 1.0,
+        "significant": "False",
+        "effect_size": 0.2,
+        "effect_interpretation": "small",
+        "mean_target": 100.0,
+        "mean_baseline": 80.0,
+        "improvement": 20.0
+      },
+      "hypothesis": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 100.0,
+        "mean_baseline": 11.76470588235294,
+        "improvement": 88.23529411764706
+      },
+      "smartrandom": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 100.0,
+        "mean_baseline": 29.411764705882355,
+        "improvement": 70.58823529411765
+      },
+      "purellm": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 100.0,
+        "mean_baseline": 37.647058823529406,
+        "improvement": 62.352941176470594
+      }
+    },
+    "target8_triangle": {
+      "past": {
+        "p_value": 1.0,
+        "significant": "False",
+        "effect_size": 0.0,
+        "effect_interpretation": "negligible",
+        "mean_target": 100.0,
+        "mean_baseline": 100.0,
+        "improvement": 0.0
+      },
+      "no_healing": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 100.0,
+        "mean_baseline": 0.0,
+        "improvement": 100.0
+      },
+      "hypothesis": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 100.0,
+        "mean_baseline": 3.125,
+        "improvement": 96.875
+      },
+      "smartrandom": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 100.0,
+        "mean_baseline": 9.375,
+        "improvement": 90.625
+      },
+      "purellm": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 100.0,
+        "mean_baseline": 37.5,
+        "improvement": 62.5
+      }
+    },
+    "target9_nextdate": {
+      "past": {
+        "p_value": 1.0,
+        "significant": "False",
+        "effect_size": 0.0,
+        "effect_interpretation": "negligible",
+        "mean_target": 100.0,
+        "mean_baseline": 100.0,
+        "improvement": 0.0
+      },
+      "no_healing": {
+        "p_value": 0.25,
+        "significant": "False",
+        "effect_size": 0.6,
+        "effect_interpretation": "large",
+        "mean_target": 100.0,
+        "mean_baseline": 40.0,
+        "improvement": 60.0
+      },
+      "hypothesis": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 100.0,
+        "mean_baseline": 1.6393442622950822,
+        "improvement": 98.36065573770492
+      },
+      "smartrandom": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 100.0,
+        "mean_baseline": 4.918032786885246,
+        "improvement": 95.08196721311475
+      },
+      "purellm": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 100.0,
+        "mean_baseline": 1.6393442622950822,
+        "improvement": 98.36065573770492
+      }
+    },
+    "target10_commission": {
+      "past": {
+        "p_value": 1.0,
+        "significant": "False",
+        "effect_size": 0.0,
+        "effect_interpretation": "negligible",
+        "mean_target": 94.11764705882352,
+        "mean_baseline": 94.11764705882352,
+        "improvement": 0.0
+      },
+      "no_healing": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 94.11764705882352,
+        "mean_baseline": 0.0,
+        "improvement": 94.11764705882352
+      },
+      "hypothesis": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 94.11764705882352,
+        "mean_baseline": 1.96078431372549,
+        "improvement": 92.15686274509804
+      },
+      "smartrandom": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 94.11764705882352,
+        "mean_baseline": 5.88235294117647,
+        "improvement": 88.23529411764706
+      },
+      "purellm": {
+        "p_value": 0.0625,
+        "significant": "False",
+        "effect_size": 1.0,
+        "effect_interpretation": "large",
+        "mean_target": 94.11764705882352,
+        "mean_baseline": 19.2156862745098,
+        "improvement": 74.90196078431373
+      }
+    }
+  }
+}

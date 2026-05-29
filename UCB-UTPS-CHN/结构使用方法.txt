@@ -1,0 +1,73 @@
+project/
+├── common/
+│   ├── __init__.py
+│   ├── data_structures.py
+│   ├── test_executor.py
+│   ├── coverage_analyzer.py
+│   └── wilcoxon_analyzer.py
+├── methods/
+│   ├── __init__.py
+│   ├── past_method.py
+│   ├── no_healing_method.py
+│   ├── hypothesis_method.py
+│   ├── smart_random_method.py
+│   └── pure_llm_method.py
+├── runners/
+│   ├── run_past.py
+│   ├── run_no_healing.py
+│   ├── run_hypothesis.py
+│   ├── run_smart_random.py
+│   └── run_pure_llm.py
+├── analysis/
+│   ├── __init__.py
+│   ├── aggregate_results.py
+│   └── plot_comparison.py
+├── results/
+│   └── (存放结果JSON文件)
+└── main.py
+
+
+
+# 1. 安装依赖
+pip install pytest coverage hypothesis numpy scipy matplotlib openai
+
+# 2. 设置API密钥（在代码中已配置）
+
+# 3. 创建目录结构
+mkdir -p common methods runners analysis results
+
+# 4. 将所有代码文件放到对应目录
+
+# 5. 创建 __init__.py 文件
+touch common/__init__.py methods/__init__.py analysis/__init__.py
+
+
+# 7. 或者单独运行某个方法（我选择的是这个）
+python runners/run_past.py target4_dedent.py 5 15 --ucb #带ucb
+python runners/run_past.py target4_dedent.py 5 15  #不带ucb
+python runners/run_past_ucb.py target4_dedent.py 5 15
+python runners/run_past.py target4_dedent.py 5 15
+python runners/run_hypothesis.py target4_dedent.py 5 15
+
+
+增加ucb后的past程序调用方法：
+# 8. 只分析已有结果（不重新运行）
+python -c "from main import analyze; analyze('target4_dedent.py')"
+
+# 原始PAST（不使用UCB）- 保持原有调用方式兼容
+python runners/run_past.py target4_dedent.py 5 15
+
+# 启用UCB（默认参数）
+python runners/run_past.py target4_dedent.py 5 15 --ucb
+
+# 启用UCB并指定探索参数
+python runners/run_past.py target4_dedent.py 5 15 --ucb --ucb-c 2.0
+
+# 使用UCB-Tuned模式
+python runners/run_past.py target4_dedent.py 5 15 --ucb --ucb-mode tuned
+
+# 完整参数示例
+python runners/run_past.py target7_closure.py 5 15 --ucb --ucb-c 1.414 --ucb-mode tuned
+
+
+输出结果分析：result\analyze_result.py
