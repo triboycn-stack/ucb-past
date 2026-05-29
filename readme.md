@@ -127,7 +127,7 @@ python results/analyze_results.py
 |------|-------------|
 | `results/past_*.json` | PAST experiment results |
 | `results/past_ucb_*.json` | PAST-UCB experiment results |
-| `analysis_results_*.json` | Aggregated statistics with Wilcoxon tests |
+| `analysis_results_all*.json` | Aggregated statistics with Wilcoxon tests |
 | `coverage_comparison_*.png` | Bar chart of coverage comparison |
 | `wilcoxon_heatmap_*.png` | p-value heatmap |
 | `effect_size_comparison_*.png` | Effect size comparison chart |
